@@ -178,7 +178,7 @@ async def _(dyno):
             dyno.chat_id,
             "logs.txt",
             reply_to=dyno.id,
-            caption="logs of CBA Userbot",
+            caption="logs of ╚»★𝐑𝐃𝐗bot★«╝",
         )
         await dyno.edit("Sending logs here....")
         await asyncio.sleep(5)
