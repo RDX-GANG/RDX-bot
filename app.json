@@ -1,7 +1,7 @@
 {
   "name": "CBA-USERBOT",
-  "description": "Userbot created by a @CyberBoyAyush",
-  "logo": "https://telegra.ph/file/fc3aef09eb9b82d244f97.jpg",
+  "description": "The legend RDX bot is on the floor to give a sleek and sexy fucking experience to you on telegram, deploy our bot to get that.",
+  "logo": "https://telegra.ph/file/90015e33395f6196486ee.gif",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/CyberBoyAyush/CBA-Userbot",
+  "repository": "https://github.com/RDX-GANG/RDX-bot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @CyberBoyAyush.",
+      "description": "Fill your Full name or Username like @Sensei_nex.",
       "value": ""
     },
     "APP_ID": {
@@ -58,7 +58,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value from https://cba-userbot.cyberboyayush.repl.run/",
+      "description": "Get this value from https://repl.it/@SenseiOfficial/String-Session-1/",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
