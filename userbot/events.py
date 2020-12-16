@@ -85,8 +85,8 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**USERBOT ERROR REPORT**\n"
-                    link = "[PaperplaneExtended Support Chat](https://t.me/PaperplaneExtendedSupport)"
+                    text = "🔱╚»★𝐑𝐃𝐗bot★«╝🔱 ERROR REPORT\n"
+                    link = "[🔱╚»★𝐑𝐃𝐗bot★«╝🔱 Support Chat](https://t.me/rdxbotsupport)"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
