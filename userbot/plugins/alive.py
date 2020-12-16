@@ -5,7 +5,7 @@ from uniborg.util import admin_cmd
 
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Senseibot user"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "🔱╚»★𝐑𝐃𝐗bot★«╝🔱 user"
 PM_IMG = "https://telegra.ph/file/90015e33395f6196486ee.gif"
 pm_caption = "`🔥AAO BHARMANNN CHOD DAALE🔥\n"
 pm_caption += "`                  ⇋【🛡️ 𝕾𝖞𝖘𝖙𝖊𝖒 𝖘𝖙𝖆𝖙𝖚𝖘 🛡️】⇌  `\n\n"
