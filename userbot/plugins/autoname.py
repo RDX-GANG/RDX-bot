@@ -18,7 +18,7 @@ from userbot import ALIVE_NAME
 
 DEL_TIME_OUT = 60
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "FridayUserbot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "🔱╚»★𝐑𝐃𝐗bot★«╝🔱"
 
 @borg.on(admin_cmd(pattern="autoname", allow_sudo=True))  # pylint:disable=E0602
 
