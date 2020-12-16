@@ -30,7 +30,7 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME, CUSTOM_STICKER_PACK_NAME, CUSTOM_ANIMATED_PACK_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Who is this"
-CUSTOM_STICKER_NAME =str(CUSTOM_STICKER_PACK_NAME) if CUSTOM_STICKER_PACK_NAME else "My Boss CBA-Userbot Volume Pack One"
+CUSTOM_STICKER_NAME =str(CUSTOM_STICKER_PACK_NAME) if CUSTOM_STICKER_PACK_NAME else "My Boss RDX Volume Pack One"
 CUSTOM_ANIME_PACK = str(CUSTOM_ANIMATED_PACK_NAME) if CUSTOM_ANIMATED_PACK_NAME else "My Boss Animated Pack"
 FILLED_UP_DADDY = "Invalid pack selected."
 
@@ -55,15 +55,15 @@ async def _(event):
     #packname = f"FRIDAY PACK"
     #packshortname = f"FRIDAY_{userid}_ns"  # format: Uni_Borg_userid
     if userid == 1263617196:
-        packname = f"@StarkGang Packs 🎭"
-        packshortname = "StarkGangPack"
+        packname = f"@RDXBOTSUPPORT Packs 🎭"
+        packshortname = "RDXgangPACK"
     else:
         packname = f"{user.username}'s {pack}"
         packshortname = f"CBA_{userid}_Pack"
     await event.edit("`Wew ! I Love That Sticker ! Mind If i Kang It ?`")
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "@FRIDAYOT.png"
+    file_ext_ns_ion = "@RDX.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
@@ -71,10 +71,10 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         if userid == 813878981:
             packname = f"StarkGang Ka Pack"
-            packshortname = "StarkGangisgreat"
+            packshortname = "RDXONFIRE"
         else:
             packname = f"{user.username}'s {pack}"
-            packshortname = f"FRIDAY_{userid}" # format: Uni_Borg_userid
+            packshortname = f"RDX_{userid}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
